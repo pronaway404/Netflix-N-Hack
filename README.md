@@ -226,7 +226,7 @@ const ip_script_port = 8080; //port which mitmproxy is running on
 - [c0w-ar](https://github.com/c0w-ar/) for complete inject.js userland exploit and lapse port from Y2JB!
 - [ufm42](https://github.com/ufm42) for regex sandbox escape exploit and ideas!
 - [autechre](https://github.com/autechre-warp) for the idea!
-- Dr.yenyen for testing and coordinating system back up, and much more help!
+- [Dr.yenyen](https://github.com/DrYenyen) for testing and coordinating system back up, and much more help!
 - [Gezine](https://github.com/gezine) for help with exploit/Y2JB for reference and original lapse.js!
 - Rush for creating system backup, 256GB and 2TB images !
 - [Jester](https://github.com/god-jester) for testing 2TB and devising easiest imaging method, and gathered all images for m.2!
