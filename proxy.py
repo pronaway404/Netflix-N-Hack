@@ -91,7 +91,7 @@ def request(flow: http.HTTPFlow) -> None:
                 {"Content-Type": "text/plain"}
             )
 
-    # Map 1_lapse_prepare_1 to 1_lapse_prepare_1.js
+    
     if "/js/lapse.js" in flow.request.path:
         inject_path = os.path.join(os.path.dirname(__file__), "payloads", "lapse.js")
         print(f"[*] Injecting JavaScript from: {inject_path}")
