@@ -36,7 +36,7 @@ mitmproxy -s downgrader.py --ssl-insecure
 
 On your PS4:
 
-1. Open Netflix
+1. Go to Netflix **on the home screen*
 
 
 2. Press **Options** on your controller 
