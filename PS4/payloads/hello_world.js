@@ -1,0 +1,32 @@
+// Hello World Payload
+// Clear existing logs and show large "Hello World" text
+
+// Clear the logger lines
+logger.lines = [];
+logger.refresh();
+
+// Create a large text widget
+var helloWidget = nrdp.gibbon.makeWidget({
+    name: "hello",
+    x: 200,
+    y: 250,
+    width: 880,
+    height: 220
+});
+
+helloWidget.text = {
+    contents: "HELLO ABBY!",
+    size: 72,
+    color: { a: 255, r: 255, g: 0, b: 0 }, // Cyan
+    wrap: false
+};
+
+helloWidget.parent = logger.overlay;
+
+// Send notification
+send_notification("Hello Abby! 🎬");
+
+// Log success
+logger.log("Payload executed!");
+logger.log("Hello World displayed");
+logger.flush();
