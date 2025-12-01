@@ -266,7 +266,7 @@ function bin_loader_main() {
     logger.log("Payload loaded! Spawning thread via Thrd_create...");
     logger.flush();
 
-    // Use Thrd_create like yarpe/binloader_direct - build custom ROP, don't return to JS
+    
     try {
         const THRD_CREATE_OFFSET = 0x4c770n;
         const Thrd_create = libc_base + THRD_CREATE_OFFSET;
