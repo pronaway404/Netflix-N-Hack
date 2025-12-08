@@ -90,8 +90,12 @@ def request(flow: http.HTTPFlow) -> None:
             logger.info(f"        -> {JP_REDIRECT}")
             flow.request.url = JP_REDIRECT
             
-        elif ".pkg" in flow.request.pretty_url and (nflix_cusas[0] in flow.request.pretty_url or nflix_cusas[1] in flow.request.pretty_url or nflix_cusas[2] in flow.request.pretty_url):
-            pass
+        elif ".pkg" in flow.request.pretty_url:
+            if nflix_cusas[0] in flow.request.pretty_url or nflix_cusas[1] in flow.request.pretty_url or nflix_cusas[2] in flow.request.pretty_url:
+                flow.comment = "PKG ALLOWED"
+            else:
+                flow.comment = f"PKG BLOCKED - no matching CUSA"
+                pass
         else:
             flow.response = http.Response.make( 
                 200,
