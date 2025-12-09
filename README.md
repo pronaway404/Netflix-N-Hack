@@ -25,7 +25,34 @@ Having issues? Let me know on [Discord](https://discord.gg/QMGHzzW89V)
 
 **Do not update your console to activate!** Use System backup method below
 
+### Requirements for PS4 Version
+
+The PS4 version of Netflix requires a license.
+
+**You may have the license if:**
+1. You have previously installed Netflix but deleted it.
+2. You currently have the retail application installed and can run it without jailbreaking. (Not the one from homebrew store/pkg zone)
+3. You have a real PSN account activated as primary.
+
+If you don't know if you have the license, you can still try flashing the extended storage image for your region (region relevant only for PS4) and testing to see if the Netflix app will work. If it stays locked, it means you don't have a license and you will not be able to use the jailbreak.
+
+**Requirements to flash the extended storage image:**
+1. PS4 firmware 9.00-12.02
+2. 256GB or larger (up to 8TB) USB drive / External HDD / External SSD
+3. Must be USB 3.0 connection
+
+> [!TIP]
+> If you have a higher version application than the vulnerable 1.53 version, delete it and flash an extended storage image to a drive — it'll give you the 1.53 version.
+
+> [!NOTE]
+> Alternatively, if you can already jailbreak, instead of flashing an extended storage image you can install the retail version of Netflix and use it afterwards. **Still requires a license.**
+
+---
+
 ### Extended Storage Drive Setup (PS4)
+
+> [!IMPORTANT]
+> Before plugging in the extended storage drive, delete the Netflix app from your PS4 if you have it installed. Then turn off the console, plug in the extended storage drive, and turn the console back on.
 
 #### Step 1: Download balenaEtcher
 - Download **balenaEtcher** for Windows, macOS, or Linux from:
@@ -44,6 +71,9 @@ Having issues? Let me know on [Discord](https://discord.gg/QMGHzzW89V)
 4. Press OK on the prompt to move the app to internal storage. It will then move to internal storage and be usable for the exploit. Accessible from the Media tab of the XMB.
 
 ### Extended Storage Drive Setup (PS5)
+
+> [!IMPORTANT]
+> While the console is off, plug in the extended storage drive, then turn the console on.
 
 #### Step 1: Download balenaEtcher
 - Download **balenaEtcher** for Windows, macOS, or Linux from:
