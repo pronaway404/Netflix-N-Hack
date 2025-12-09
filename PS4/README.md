@@ -21,6 +21,9 @@ Need help? Ask me on [Discord](https://discord.gg/QMGHzzW89V)
 
 ## Downgrading Netflix
 
+> [!NOTE]
+> Please see the [Extended Storage Method](https://github.com/earthonion/Netflix-N-Hack/)
+
 ### Prerequisites
 - Python
 - mitmproxy
