@@ -10,7 +10,7 @@ if [ "$#" -gt 0 ]; then
   case "$1" in
     ps5)
       shift
-      exec mitmdump -p "${MITM_PORT:-8080}" -s PS5/proxy.py "$@"
+      exec mitmdump -p "${MITM_PORT:-8080}" -s proxy.py "$@"
       ;;
     ps4)
       shift
